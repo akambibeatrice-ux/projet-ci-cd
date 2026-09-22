@@ -1,12 +1,12 @@
 name:Tests
-on:
-  push:
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Recuperer le code 
-        uses: actions/checkout@v3
-      - name: exécter le programme de
-        run: python main.py
+  on:
+    push:
+  jobs:
+    test:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Recuperer le code 
+          uses: actions/checkout@v3
+        - name: exécter le programme de
+          run: python main.py
 
